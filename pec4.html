@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Parallel Sets</title>
+<style>
+@import url(./css/d3.parsets.css);
+</style>
+
+<body>
+  <h1>Filtraciones y robos de datos de 2004 a 2018</h1>
+  <div>PEC 4 - Visualización de datos</div>
+  <div style="margin-bottom: 25px">Autor: José Carlos García</div>
+
+  <div id="vis"></div>
+  <div class="options">
+    <span class="curves"><label for="curved"><input type="checkbox" id="curved" onchange="curves.call(this)">¿Curvas?</label></span>
+  </div>
+
+  <div style="margin-top: 10px"><em>Basado en el código de Jason Davies: <a href="https://www.jasondavies.com/parallel-sets/" target="_blank">https://www.jasondavies.com/parallel-sets/</a></em></div>
+  <div><em>Usa los datos proporcionados en <a href="https://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/" target="_blank">World's Biggest Data Breaches & Hacks</a></em></div>
+
+<script src="./js/d3.v3.min.js"></script>
+<script src="./js/d3.parsets.js"></script>
+<script src="./js/parallel-sets_base.js"></script>
+</body>
